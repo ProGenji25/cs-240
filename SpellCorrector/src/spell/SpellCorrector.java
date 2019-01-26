@@ -109,7 +109,6 @@ public class SpellCorrector implements ISpellCorrector {
 		for (int i = 0; i <= length; i++) {	//insertion edits
 			for (char c = 'a'; c <= 'z'; c++) {
 				list.add(word.substring(0, i) + c + word.substring(i));
-				//System.out.println(list.get(list.size() - 1));
 			}
 		}
 		return list;
