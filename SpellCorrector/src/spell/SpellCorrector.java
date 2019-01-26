@@ -21,7 +21,6 @@ public class SpellCorrector implements ISpellCorrector {
 		while(scanner.hasNext()) {					//adds every valid word to trie
 			String word = scanner.next();
 			dictionary.add(word);
-            System.out.println(dictionary.toString());
 		}
 		scanner.close();
 	}
