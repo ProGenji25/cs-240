@@ -71,7 +71,7 @@ public class EvilHangman implements IEvilHangmanGame {
 		StringBuilder builder = new StringBuilder();
 		for(char c:word.toCharArray()) {
 			if(c == guess) {
-                builder.append(c);
+                		builder.append(c);
 			}
 			else {
 				builder.append('_');
